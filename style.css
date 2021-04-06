@@ -5,19 +5,15 @@ body {
 }
 
 p {
-  margin-left: 10px;
+  margin-left: 20px;
   border-left: 3px solid #000;
-  padding-left: 10px;
-  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 ul {
   list-style: none;
   padding-left: 20px;
-}
-
-.headkids {
-    padding-bottom: 20px;
 }
 
 .button1 {
@@ -27,7 +23,7 @@ ul {
   border-radius: 20px;
   padding: 10px;
   text-align: center;
-  margin: 2%;
+  margin: 3%;
 }
 
 .button2 {
@@ -37,7 +33,7 @@ ul {
   border-radius: 20px;
   padding: 10px;
   text-align: center;
-  margin: 2%;
+  margin: 3%;
 }
 
 a {
@@ -47,7 +43,7 @@ a {
 
 h1 {
   font-size: 2.5em;
-  position: static;
+  padding-left: 20px;
 }
 
 h2 {
@@ -73,16 +69,16 @@ footer {
 }
 
 .footnav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navfoot {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 20px;
 }
 
 .chirpus {
-    color: #000;
-    padding-left: 20px;
+  color: #000;
+  padding-left: 20px;
 }
