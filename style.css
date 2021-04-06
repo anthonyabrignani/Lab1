@@ -8,6 +8,7 @@ p {
   margin-left: 10px;
   border-left: 3px solid #000;
   padding-left: 10px;
+  font-size: 1.2em;
 }
 
 ul {
@@ -19,15 +20,24 @@ ul {
     padding-bottom: 20px;
 }
 
-.button {
+.button1 {
+  display: block;
   color: white;
   background-color: #000;
-  border-radius: 8px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
+  border-radius: 20px;
+  padding: 10px;
   text-align: center;
+  margin: 2%;
+}
+
+.button2 {
+  display: block;
+  color: white;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 2%;
 }
 
 a {
@@ -68,8 +78,8 @@ footer {
 }
 
 .navfoot {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .chirpus {
