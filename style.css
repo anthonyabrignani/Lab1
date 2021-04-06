@@ -1,73 +1,78 @@
-
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: #f9fafc;
-    margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+  margin: 0;
 }
 
 p {
-    margin-left: 10px;
-    border-left: 3px solid #000;
-    padding-left: 10px;
+  margin-left: 10px;
+  border-left: 3px solid #000;
+  padding-left: 10px;
 }
 
 ul {
-    list-style: none;
-    padding-left: 20px;
+  list-style: none;
+  padding-left: 20px;
 }
 
-li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.headlinks {
-    margin: 0;
-    padding-bottom: 50px;
+.headkids {
+    padding-bottom: 20px;
 }
 
 .button {
-    color: white;
-    background-color: #000;
-    border-radius: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: center;
-    align-content: center;
+  color: white;
+  background-color: #000;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: #69696a;
+  text-decoration: none;
+  color: #69696a;
 }
 
 h1 {
-    font-size: 2.5em;
-    position: static;
+  font-size: 2.5em;
+  position: static;
 }
 
 h2 {
-    font-size: 1.1em;
-    padding-top: 20px;
-    padding-left: 20px;
+  font-size: 1.1em;
+  padding-left: 20px;
 }
 
-footer{
-    background: rgba(247, 193, 162, 0.7);
-    width:99%;
-    position:absolute;
-    bottom:0;
+footer {
+  background: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footnav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-
-.footchirp {
-    color: #000;
-    align-items: flex-start;
 }
 
+.navfoot {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-
+.chirpus {
+    color: #000;
+    padding-left: 20px;
+}
